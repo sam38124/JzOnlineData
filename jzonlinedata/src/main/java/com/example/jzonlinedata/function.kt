@@ -1,7 +1,5 @@
-package com.example.jzfixlanguage
+package com.example.jzonlinedata
 
-import android.app.Dialog
-import android.util.Log
 import android.view.View
 import android.view.ViewGroup
 

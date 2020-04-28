@@ -2,7 +2,6 @@ package com.example.jzonlinedata
 
 import android.content.Context
 import android.util.Log
-import com.example.jzfixlanguage.converData
 import com.example.jztaskhandler.TaskHandler
 import com.example.jztaskhandler.runner
 import com.jzsql.lib.mmySql.JzSqlHelper
