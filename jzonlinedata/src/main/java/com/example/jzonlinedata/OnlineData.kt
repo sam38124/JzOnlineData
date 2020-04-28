@@ -86,7 +86,7 @@ interface callback{
 
 fun String.getOnlineData():String?{
     var b:String?=null
-    OnlineData.newInstance.sqlHelper.query("select replto from fixlan where repl='${this.replace("'","")}'",
+    OnlineData.newInstance.sqlHelper.query("select replto from onlinedata where repl='${this.replace("'","")}'",
         Sql_Result {
             b=it.getString(0)
         })
